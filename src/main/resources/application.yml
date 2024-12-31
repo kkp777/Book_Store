@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 21-SpringBoot-BookStore_Management
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: system
+    password: system
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 2024
